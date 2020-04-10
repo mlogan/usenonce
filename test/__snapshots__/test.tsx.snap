@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deterministic rendering 1`] = `
+<NonceProvider>
+  <ListOfNonces>
+    <button
+      onClick={[Function]}
+    />
+    <NonceComponent
+      key="0"
+    >
+      <div>
+        xtufb06tirp
+      </div>
+    </NonceComponent>
+    <NonceComponent
+      key="1"
+    >
+      <div>
+        0krkr4iueu2
+      </div>
+    </NonceComponent>
+    <NonceComponent
+      key="2"
+    >
+      <div>
+        4q1om0duunl
+      </div>
+    </NonceComponent>
+  </ListOfNonces>
+</NonceProvider>
+`;
+
+exports[`deterministic rendering 2`] = `
+<NonceProvider>
+  <ListOfNonces>
+    <button
+      onClick={[Function]}
+    />
+    <NonceComponent
+      key="0"
+    >
+      <div>
+        xtufb06tirp
+      </div>
+    </NonceComponent>
+    <NonceComponent
+      key="1"
+    >
+      <div>
+        0krkr4iueu2
+      </div>
+    </NonceComponent>
+    <NonceComponent
+      key="2"
+    >
+      <div>
+        4q1om0duunl
+      </div>
+    </NonceComponent>
+    <NonceComponent
+      key="3"
+    >
+      <div>
+        e6924wtecvu
+      </div>
+    </NonceComponent>
+  </ListOfNonces>
+</NonceProvider>
+`;

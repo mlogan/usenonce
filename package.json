@@ -1,0 +1,43 @@
+{
+  "name": "usenonce",
+  "version": "0.1.0",
+  "description": "A React hook for generating deterministic random strings",
+  "main": "dist/src/usenonce.js",
+  "repository": "https://github.com/mlogan/usenonce",
+  "author": "Mark Logan (mlogan@gmail.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn prepare && yarn jest",
+    "prepare": "yarn tsc"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.2.1",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^25.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "jest": "^25.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "alea": "^1.0.0"
+  }
+}
