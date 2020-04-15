@@ -1,6 +1,6 @@
 {
   "name": "usenonce",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A React hook for generating deterministic random strings",
   "main": "dist/src/usenonce.js",
   "types": "dist/src/usenonce.d.ts",
